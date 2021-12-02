@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+/* import React, {Fragment} from "react";
 //components
 import Foo from "./components/foo/foo";
 
@@ -17,3 +17,17 @@ export default function App(){
      </Fragment>
   )
 };
+ */
+
+import React from 'react'
+import Card from './components/card/card'
+import Cards from './components/card/cards.jsx'
+function App() {
+  return (
+    <div>
+      <Cards/>
+    </div>
+  )
+}
+
+export default App

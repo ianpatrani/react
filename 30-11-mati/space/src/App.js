@@ -6,7 +6,6 @@ function App() {
 
       <nav>
         <div className="img"></div>
-        <hr id="hr" />
         <label for="toggle">&#9776;</label>
         <input type="checkbox" id="toggle" />
         <div className="navButtons">
@@ -26,9 +25,9 @@ function App() {
             outer space and not hover kind of on the edge of it. Well sit back, and relax
             because we’ll give you a truly out of this world experience!
           </p>
-        </div>
         <div className="homeRight">
           <button>Explore</button>
+        </div>
         </div>
       </section>
 

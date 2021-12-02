@@ -54,13 +54,6 @@ nav {
     backdrop-filter: blur(1rem);
 }
 
-#hr {
-    height: 2px;
-    width: 650px;
-    margin-left: 120px;
-    color: #1e202c;
-}
-
 .navButtons a {
     font-size: 16px;
     color: white;
@@ -128,7 +121,7 @@ a:hover {
     background-position: center;
 
 }
-/* 
+
 @media only screen and (max-width: 500px) {
     label {
         display: block;
@@ -154,10 +147,6 @@ a:hover {
         color: white;
     }
 
-    #hr {
-        display: none;
-    }
-
     nav {
         display: flex;
         justify-content: space-around;
@@ -179,4 +168,4 @@ a:hover {
         display: flex;
         gap: 30px;
     }
-} */
+}
